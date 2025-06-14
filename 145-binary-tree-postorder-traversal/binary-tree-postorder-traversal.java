@@ -13,6 +13,7 @@
  *     }
  * }
  */
+ //145. Binary Tree Postorder Traversal
 class Solution {
     public List<Integer> postorderTraversal(TreeNode root) {
         List<Integer> result  = new ArrayList<>();
@@ -25,8 +26,5 @@ class Solution {
         dfs(node.left,result);
         dfs(node.right,result);
         result.add(node.val);
-        
-
-       
     }
 }
