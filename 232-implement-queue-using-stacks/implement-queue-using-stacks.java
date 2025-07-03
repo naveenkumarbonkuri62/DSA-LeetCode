@@ -1,7 +1,6 @@
 class MyQueue {
     Stack<Integer> st1;
     Stack<Integer> st2;
-    int top1,top2;
     public MyQueue() {
         this.st1=new Stack<>();
         this.st2=new Stack<>();
